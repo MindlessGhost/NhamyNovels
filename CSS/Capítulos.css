@@ -1,0 +1,23 @@
+@page { size: 8.27in 11.69in; margin-left: 1in; margin-right: 1in; margin-top: 0.5in; margin-bottom: 1in }
+
+p{ 
+    line-height: 115%;
+    text-align: left;
+    orphans: 2;
+    widows: 2;
+    margin-bottom: 0.1in; direction: ltr;
+}
+
+h1{ 
+    font-size: 20pt;
+    line-height: 100%;
+    text-align: left;
+    page-break-inside: avoid;
+    orphans: 2;
+    widows: 2;
+    margin-top: 0.28in;
+    margin-bottom: 0.08in;
+    direction: ltr;
+    page-break-before: auto;
+    page-break-after: avoid;
+}
