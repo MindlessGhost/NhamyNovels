@@ -1,0 +1,74 @@
+body{
+    background-color: #71979D;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: left;
+    background-color: #1C4248;
+    color:#B6EAF2;
+    font-size: 75%;
+    margin: -8px;
+    padding: 2%;
+    border: 10px;
+}
+
+.main{
+    background-color: #B6EAF2;
+    color:#1C4248;
+    min-height: 87vh;
+    text-align: center;
+    border-radius: 1.5%;
+}
+
+.capas{
+    max-width: 65%;
+    max-height: 65%;
+    border-style: solid;
+    border-width: 0.3em;
+    border-color: #fc83ac;
+    border-radius: 2%;
+}
+
+
+
+
+
+
+
+
+
+li{
+    text-align: left;
+    font-size: 125%;
+}
+
+@media (min-width: 1440px){
+
+.main{
+    max-width: 70%;
+    align-self: center;
+    margin: auto;
+
+.capas{
+    max-width: 30%;
+    max-height: 30%;
+}
+}
+    
+
+}
+
+/*Tablets*/
+@media (min-width: 1024px){
+
+.main{
+    font-size: 140%;
+}
+
+.capas{
+    max-width: 50%;
+    max-height: 50%;
+}    
+
+}
