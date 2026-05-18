@@ -45,37 +45,41 @@ a{
     color:#fc83ac;
 }
 
+/*Tablets*/
+@media (min-width: 600px){
+    
+    header{
+        font-size: 110%;
+    }
 
+    .main{
+        font-size: 160%;
+    }
 
+    .capas{
+        max-width: 60%;
+        max-height: 60%;
+    }    
+}
 
-
+/*Desktops*/
 
 @media (min-width: 1440px){
 
-.main{
-    max-width: 70%;
-    align-self: center;
-    margin: auto;
-
-.capas{
-    max-width: 30%;
-    max-height: 30%;
-}
-}
+    header{
+        font-size: 90%
+    }
     
+    .main{
+        max-width: 65%;
+        align-self: center;
+        margin: auto;
 
-}
-
-/*Tablets*/
-@media (min-width: 1024px){
-
-.main{
-    font-size: 140%;
-}
-
-.capas{
-    max-width: 50%;
-    max-height: 50%;
-}    
-
+        font-size: 180%;
+    }
+    
+    .capas{
+        max-width: 40%;
+        max-height: 40%;
+    }
 }
