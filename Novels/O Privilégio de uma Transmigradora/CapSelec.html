@@ -4,6 +4,8 @@
     <head>
         <title>Privilégio de uma Transmigradora - Seleção de Capítulos</title>
         <link href="../../CSS/CapSelec.css" type="text/css" rel="stylesheet">
+        <script src="../../JScripts/Scripts.js"></script>
+        <link href=""
     </head>
 
     <body>
@@ -15,9 +17,9 @@
             <h2>
                 <label for="Capítulos">Capítulos:</label>
 
-                <select name="Capítulos" id="Capítulos">
-                    <option></option>
-                    <option><a >1. A era das transmigrações</a></option>
+                <select name="Capítulos" id="Capítulos" onchange="CapítulosHandler(this.value)">
+                    <option>Capítulo...</option>
+                    <option value="Capítulos/Capítulo_1.html">1. A era das transmigrações</option>
                 </select>
             </h2>
         </div>
