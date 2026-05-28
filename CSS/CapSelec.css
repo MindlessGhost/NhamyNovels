@@ -14,6 +14,9 @@ header{
     width: 100%;
     height: 8vh;
 
+    display: flex;
+    align-items: center;
+
     text-align: left;
     font-size: 80%;
 }
@@ -30,4 +33,37 @@ header{
 
 h1{
     padding-left: 0.5em;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+/*Tablets*/
+@media (min-width: 600px){
+    
+    header{
+        font-size: 110%;
+    }
+
+    .main{
+        font-size: 160%;
+    }
+
+}
+
+/*Desktops*/
+
+@media (min-width: 1440px){
+
+    header{
+        font-size: 90%
+    }
+    
+    .main{
+        max-width: 65%;
+        align-self: center;
+        margin: auto;
+
+        font-size: 180%;
+    }
+
 }
